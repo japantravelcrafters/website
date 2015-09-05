@@ -8,9 +8,9 @@ if(isset($_POST['emailer'])) {
 
                 // Create the email and send the message
              // $to_alt         =   $email_address;
-                $to             =   "steve@phasehome.com";
-                $email_subject  =   "www.phasehome.com Contact Form:  $name";
-                $email_body     =   "Hello Steve. You have received a new submission from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
+                $to             =   "jtc_agency@yahoo.com";
+                $email_subject  =   "Japan Travel Crafters Contact Form:  $name";
+                $email_body     =   "Hello Japan Travel Crafters. You have received a new submission from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
                 $headers        =   "From: noreply@phasehome.com\n";
                 $headers        .=  "Reply-To: $email_address"; 
 
